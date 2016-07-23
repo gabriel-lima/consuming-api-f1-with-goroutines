@@ -1,1 +1,5 @@
-# consuming-api-f1-with-goroutines
+Run follow command:
+
+```shell
+$ time go run main.go
+```
