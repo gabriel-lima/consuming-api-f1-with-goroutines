@@ -1,3 +1,10 @@
+By default, only one job and work when run script, otherwise, it's possible more fast increasing jobs or works. 
+Access file `main.go` and edit follow lines:
+```go
+const numberOfJobs = 1
+const numberOfWorks = 1
+```
+
 Run follow command:
 
 ```shell
