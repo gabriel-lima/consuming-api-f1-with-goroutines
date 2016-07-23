@@ -1,3 +1,8 @@
+# Why?
+More and more time I'm come studying the language Go. And, concurrency programming is a large topic anywhere.
+Therefore, I created this small project for practice my studies.
+
+# Get Started
 By default, only one job and work when run script, otherwise, it's possible more fast increasing jobs or works. 
 Access file `main.go` and edit follow lines:
 ```go
