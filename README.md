@@ -7,6 +7,8 @@ The objective is consuming a API REST, in this case, I choice this API http://er
 I need to get information of circuits of Formula 1 this year. 
 Reading the API, I noted that she not provide a method to get all circuits in only one requisition.
 I code a worker pools that request 20 circuits simultaneously, using goroutines and channels of language Go.
+In my local machine, the results were impressive. 
+Without threads, in average 12.0s, with 20 works and 20 jobs duration 1.9s.
 
 # Get Started
 By default, only one job and work when run script, otherwise, it's possible more fast increasing jobs or works. 
