@@ -2,6 +2,12 @@
 More and more time I'm come studying the language Go. And, concurrency programming is a large topic anywhere.
 Therefore, I created this small project for practice my studies.
 
+# How Works?
+The objective is consuming a API REST, in this case, I choice this API http://ergast.com/mrd/, because I'm a passionate for Formula 1. 
+I need to get information of circuits of Formula 1 this year. 
+Reading the API, I noted that she not provide a method to get all circuits in only one requisition.
+I code a worker pools that request 20 circuits simultaneously, using goroutines and channels of language Go.
+
 # Get Started
 By default, only one job and work when run script, otherwise, it's possible more fast increasing jobs or works. 
 Access file `main.go` and edit follow lines:
